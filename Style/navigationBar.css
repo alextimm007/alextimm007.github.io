@@ -1,0 +1,39 @@
+﻿/* size of margin around the web page */
+body {
+    margin: 0;
+}
+
+/* navigation bar layout */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 50px;
+}
+
+/* navigation bar location */
+ul.topnav li {
+    float: left;
+    }
+
+/* navigation bar buttons */
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+   
+/* hover over the buttons */
+ul.topnav li a:hover{
+    background-color: #111; /* black color on hover */
+    }
+
+/* button location */
+ul.topnav .right {
+    float: right;
+    }
+
